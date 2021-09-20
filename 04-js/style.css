@@ -1,0 +1,98 @@
+.icon {
+    font-size: 27px;
+}
+.darkmode .navbar {
+    background-color: #e72cce;
+}
+
+.navbar{
+    background-color : #37ff9e;
+}
+
+.navbar .navbar-brand{
+    color:rgb(3, 3, 3);
+}
+.navbar a{
+    color:rgb(3, 3, 3);
+}
+ .darkmode .navbar .navbar-brand{
+    color:rgb(243, 242, 242);
+}
+.darkmode .navbar a{
+    color:rgb(252, 229, 229);
+}
+
+.darkmode .navbar-brand a {
+    font: red;
+}
+.darkmode {
+    background-color: rgb(236, 236, 236);
+}
+
+body{
+    background-color: #001109;
+}
+.darkmode .foo{
+    background-color:#e72cce ;
+}
+.foo{
+    background-color :#37ff9e;
+}
+.foot { 
+  color :#111111;
+}
+
+ .darkmode .foot { 
+    color :#d4d4d4;
+}
+
+
+
+.card1  {
+    background-color: #000000;
+    border-radius: 2px;
+    border-top : 3px solid #37ff9e;
+    color: aliceblue;
+
+    
+}
+ .card2 {
+    background-color: #000000;
+    border-radius: 2px;
+    border-top : 3px solid #37ff9e;
+    color: aliceblue;
+
+    
+}
+.card3{
+    background-color: #000000;
+    border-radius: 2px;
+    border-top : 3px solid #37ff9e;
+    color: aliceblue;
+
+    
+}
+.darkmode .card1 {
+    background-color: #ffffff;
+    border-radius: 2px;
+    border-top : 3px solid #e72cce;
+    color: #111111;
+
+    
+}.darkmode .card2 {
+    background-color: #ffffff;
+    border-radius: 2px;
+    border-top : 3px solid #e72cce;
+    color: #111111;
+
+    
+}
+.darkmode .card3 {
+    background-color: #ffffff;
+    border-radius: 2px;
+    border-top : 3px solid #e72cce;
+    color: #111111;
+
+    
+}
+

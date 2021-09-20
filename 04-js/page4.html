@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./list.css">
+   
+
+
+</head>
+
+<body>
+    <!-- baground navbar dan seblah kanan -->
+    <nav class="navbar navbar-expand-lg  navbar-dark py-3 fixed-top shadow" style="background-color: #d32978;">
+        <div class="container">
+            <a href="#" class="navbar-brand">Aqilaaprll</a>
+
+            <!-- cara agar di perkecil ada button hidenya -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+
+
+            <!-- navbar sebelah kanan -->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Menu
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="page1.html">Biodata</a></li>
+                          <li><a class="dropdown-item" href="page2.html">Sistem Informasi</a></li>
+                          <li><a class="dropdown-item" href="page3.html">Swiss Country</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- jumbotron -->
+
+    <div class="container1">
+      <!-- <div class="row"> -->
+        <!-- <div class="col-8"> -->
+          <h1>ADD AND REMOVE YOUR WISH LIST</h1>
+  
+          <div class="input-group">
+            <input type="text" class="form-control" id="simpan" placeholder="Type something you want">
+  
+            <div class="input-group-append">
+              <button onclick="additem()" class="btn btn-add" type="button">add</button>
+              <button onclick="removeitem()" class="btn btn-remove"type="button">remove</button>
+            </div>
+          </div>
+          <ul id="list">
+  
+  
+          </ul>
+        </div>
+      </div>
+    </div>
+
+ 
+      
+
+    
+
+        <footer class="p-3  text-white text-center position-relative" style="background-color: #d32978;margin-top: 80px;">
+            <div class="container">
+              <p class="lead">Copyright &copy; 2021 NurAqilaAprillia</p>
+        
+              <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+              </a>
+            </div>
+          </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/popper.min.js"></script> -->
+    <script src="./list.js"></script>
+
+</body>
+
+</html>
