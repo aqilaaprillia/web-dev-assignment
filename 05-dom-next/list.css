@@ -1,0 +1,42 @@
+.container1{
+    margin-top: 10px;
+    margin-left: 400px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 8px #000000;
+    width: 500px;
+    height: 600px;
+    font-family: 'Nunino' sans-serif;
+}
+h1{
+  
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(156, 13, 120);
+    border-color:  aquamarine;
+    text-align: center;
+}
+.input{
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-right: 7px;
+
+}
+
+.list a{
+    margin:auto ;
+    margin-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.btn{
+    background-color: rgb(212, 66, 127);
+}
+.btn1{
+    background-color: #f3f027dc;
+}
+
+.list li{
+    background-color: rgb(238, 248, 195);
+    margin: 10px;
+}
